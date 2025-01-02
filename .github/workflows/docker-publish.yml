@@ -19,7 +19,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            sonaryr/qbt-resume
+            sonaryr/qbt-resumer
           tags: |
             type=ref,event=branch
             type=ref,event=pr
